@@ -12,6 +12,8 @@ A [Streamlit](https://streamlit.io/) web app that uses your webcam to detect fac
 - 🎥 Optional live-webcam variant (`realtimedetection.py`) for continuous, real-time detection outside the browser
 - 📓 Full training notebook (`face.ipynb`) showing how the CNN was built and trained
 
+DATASET LINK : https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer
+
 ## Project Structure
 
 ```
@@ -133,7 +135,3 @@ Run the notebook cells to load and preprocess the images, build the CNN, train i
 - **Webcam not working in browser** — Make sure you've granted camera permissions to your browser, and that no other application is using the webcam.
 - **OpenCV import errors on Linux** — Install the system package listed in `packages.txt` (`libglib2.0-0`).
 - **`realtimedetection.py` window doesn't open** — This script needs a local display and webcam; it won't run in headless servers, containers, or over SSH without X forwarding.
-
-## License
-
-This project is provided as-is for educational and personal use. Add your preferred license here (e.g., MIT).
