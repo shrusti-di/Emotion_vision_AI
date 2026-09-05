@@ -88,6 +88,3 @@ Then open the local URL shown in your terminal (typically `http://localhost:8501
 - **"No face detected"** — Try better lighting, move closer to the camera, or make sure your face is fully visible and unobstructed.
 - **Webcam not working in browser** — Make sure you've granted camera permissions to your browser, and that no other application is using the webcam.
 
-## License
-
-This project is provided as-is for educational and personal use. Add your preferred license here (e.g., MIT).
