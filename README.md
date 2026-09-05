@@ -10,6 +10,8 @@ A simple [Streamlit](https://streamlit.io/) web app that uses your webcam to det
 - 🖼️ Annotated output image with bounding boxes and predicted labels
 - 📊 Confidence score displayed for each detected face
 
+DATASET LINK : https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer
+
 ## Demo
 
 1. Open the app in your browser.
