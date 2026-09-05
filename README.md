@@ -3,17 +3,27 @@ Emotion Vision AI
 A simple Streamlit web app that uses your webcam to detect faces and predict the emotion shown, powered by a Keras/TensorFlow CNN model trained on facial expression data.
 
 Features
+
 📸 Capture a snapshot directly from your webcam (no file upload needed)
+
 🧠 Face detection using OpenCV's Haar Cascade classifier
+
 🎭 Emotion classification into 7 categories: angry, disgust, fear, happy, neutral, sad, surprise
+
 🖼️ Annotated output image with bounding boxes and predicted labels
+
 📊 Confidence score displayed for each detected face
+
 Demo
+
 Open the app in your browser.
+
 Click "Take a photo" to activate your webcam and snap a picture.
+
 The app detects any faces in the image, predicts the emotion for each, and displays:
 An annotated image with bounding boxes and emotion labels
 A results list showing the predicted emotion and confidence percentage per face
+
 Project Structure
 .
 ├── app.py                    # Main Streamlit application
