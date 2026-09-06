@@ -10,7 +10,7 @@ from keras.models import model_from_json, load_model as keras_load_model
 # ----------------------------------------------------------------------
 st.set_page_config(page_title="Emotion Vision AI", page_icon="🙂", layout="centered")
 st.title("🙂 Emotion Vision AI")
-st.caption("Developed by Shrusti Diggavi, IPEC Solutions Private Limited Bangalore")
+st.write("Developed by Shrusti Diggavi, IPEC Solutions Private Limited Bangalore")
 st.write(
     "Take a snapshot with your webcam and the model will detect faces and "
     "predict the emotion shown."
