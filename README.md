@@ -2,6 +2,8 @@
 
 A [Streamlit](https://streamlit.io/) web app that uses your webcam to detect faces and predict the emotion shown, powered by a Keras/TensorFlow CNN trained on facial expression data. The repo also includes the model-training notebook and a standalone real-time (live video) version of the detector.
 
+Live Demo : https://emotion-vision-ai.onrender.com 
+
 ## Features
 
 - 📸 Capture a snapshot directly from your browser's webcam (no file upload needed)
